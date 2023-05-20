@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container{
+    background-color: #d9dad593;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.container .dashbord{
+    height: 600px;
+    width: 900px;
+    background-color: #fff;
+    display: flex;
+}
+.dashbord .setting-dashbord{
+    padding: 30px;
+    border-right: 1px solid #b1b1af93;
+    height: 600px;
+    width: 20%;
+}
+.setting-dashbord .setting-titale img{
+    height: 15px;
+    width: 15px;
+}
+.setting-dashbord .dashbord-ithem{
+    margin-top: 50px;
+}
+ul img{
+    height: 16px;
+    width: 16px;
+    margin-right: 14px;
+}
+.dashbord-ithem ul li{
+    margin: 30px 0px;
+}
+.dashbord-ithem ul li a{
+    color: grey;
+}
+.dashbord-ithem span{
+    color: black;
+}
+
+.edit-prof-content{
+    margin: 40px 80px;
+    width: 80%;
+    
+    
+}
+.edit-prof-content .titale{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.titale img{
+    width: 60px;
+    height: 60px;
+}.edit-prof-content .name-info{
+  display: flex;
+  margin-right: 20px;
+  justify-content: space-between;
+ 
+}
+
+.name-info .name-lable input{
+  padding: 10px;
+ 
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+select#lang{
+    padding: 10px;
+    width: 50%;
+}
+.edit-prof-content .btn{
+    padding: 5px 20px;
+    border: 1px solid #1212f7d8;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 30px;
+    color: #1212f7d8;
+    font-weight: 600;
+
+}
+.edit-prof-content .active{
+    background-color:  #0763ccd8;
+    color: #fff;
+    border: none;
+}
+
+
