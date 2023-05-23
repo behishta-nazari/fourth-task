@@ -27,7 +27,7 @@
 }
 .setting-dashbord .setting-titale img{
     height: 15px;
-    width: 15px;
+    width: 11px;
 }
 .setting-dashbord .dashbord-ithem{
     margin-top: 50px;
@@ -83,7 +83,7 @@ select#lang{
     width: 50%;
 }
 .edit-prof-content .btn{
-    padding: 5px 20px;
+    padding: 8px 20px;
     border: 1px solid #084DFF;
     margin-top: 10px;
     border-radius: 5px;
@@ -97,6 +97,9 @@ select#lang{
     background-color:  #084DFF;
     color: #fff;
     border: none;
+}
+.edit-prof-content option{
+    margin-right: 20px;
 }
 
 
